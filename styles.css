@@ -1,0 +1,60 @@
+body 
+{
+	background-image: url("./background1.jpg");
+	font-family: 'Source Sans Pro', sans-serif;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+span {
+    color: #000000;
+    font-weight: bold;
+}
+.homepage 
+{
+    margin-left: auto ;
+    margin-right: auto;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.assignment {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     margin: 25px 100px;
+}
+.profile-picture {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%
+}
+
+.assignment tr td a 
+{
+    text-decoration: none;
+    color:#000000;
+}
+.assignment tr th
+{
+    font-size: 24px;
+    color:#000000;
+}
+.assignment tr:nth-child(odd)
+{
+    background-color: #fceaea;
+
+}
+.link
+{
+    font-size: 19px;
+    color: #f57272;
+
+}
+
+
+
+
+
