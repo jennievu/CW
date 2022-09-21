@@ -1,0 +1,62 @@
+/* Nga Vu */
+.title
+{
+    background-color: #ffffff;
+    color: #ff9f9f;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px #d4d4d4;
+}
+ 
+
+.navigation {
+        width: 200px;
+        text-shadow: 1px 1px 1px #f7dede;
+      }
+.mainfolder 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+.mainfolder li:hover .subfolder {
+    display: block;
+    max-height: 200px;
+  }
+.subfolder 
+{
+    background-color: #fff6f6;
+        overflow: hidden;
+        max-height: 10px;
+        -webkit-transition: all 0.5s ease-out;
+}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    background-color: #ffffff;
+  }
+  
+  li a {
+    display: block;
+    color: #df9a9a;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 20px;
+
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #fce5e5;
+    color: #ff8f8f;
+  }
+  
+  
+  
+  
+  
