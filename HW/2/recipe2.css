@@ -1,1 +1,24 @@
 /* Nga Vu */
+body {background-color: #fde2c9;}
+.title
+{
+    background-color: none;
+    color: #f59a65;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    font-size: 40px;
+    text-shadow: 4px 2px 2px #ffffff;
+}
+
+img
+{
+    display: block;
+    border-radius: 30px;
+    border: 2px solid #f8bda2;
+    border-radius: 2px;
+    padding: 5px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
