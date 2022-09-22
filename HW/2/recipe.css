@@ -1,0 +1,98 @@
+html,
+
+
+header .navbar ul {
+    display: inline-block;
+}
+
+header .navbar ul li {
+    list-style: none;
+    display: inline;
+}
+
+header .navbar ul li a {
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: #f1f4a5;
+    border-right: 18px solid #003366;
+}
+
+.heading {
+    background-color: #F0F0F0;
+    color: #A4A400;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+
+
+body {
+    background-color: #FFCC00;
+    color: #000000;
+    margin: auto 5px;
+    font-size: 16px;
+}
+
+p,
+ul {
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.blue-bg {
+    background-color: #003366 !important;
+    color: white;
+}
+
+.direction-list li {
+    list-style-type: decimal;
+}
+
+.nutritional-table th {
+    font-weight: bold;
+}
+
+.nutritional-table {
+    margin: 20px 0;
+}
+
+.nutritional-table,
+.nutritional-table th,
+.nutritional-table tr,
+.nutritional-table td {
+    border: 2px solid white;
+    border-collapse: collapse;
+    width: max-content;
+}
+
+.nutritional-table td {
+    padding: 5px;
+    background-color: #CC9933;
+    color: white;
+}
+
+.nutritional-table .header-row ul {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nutritional-table .header-row li {
+    list-style: none;
+}
+
+.nutritional-table .header-row {
+    background-color: white;
+    color: #A4A400;
+}
+
+.align-center {
+    text-align: center;
+}
