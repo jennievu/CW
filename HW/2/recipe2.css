@@ -20,5 +20,33 @@ img
     width: 50%;
     margin: 0 auto;
 }
+.time
+{
+    color: #944619;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    font-size: 15px;
+    text-shadow: 2px 2px 2px #ffffff;  
+}
 
+.column{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #944619;
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    border: 1px solid #f8bda2;
 
+}
+.i { 
+    
+    margin-left: 40%; 
+    column-width: 20em;
+   
+} 
+.d { 
+    margin-right: 20%; 
+    column-width: 20em;
+    
+}
+
+.bolded { font-weight: bold; } 
