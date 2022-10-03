@@ -1,0 +1,32 @@
+header {
+    text-align: center;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+}
+.columns {
+    border: 4px dashed red;
+    padding: 2em;
+    margin: 2em;
+}
+
+aside {
+    flex-basis: 33%;
+    
+}
+.right-col {
+    flex-basis: 67%;
+}
+.right-col img {
+    float: right;
+}
+.right-col p:nth-child(5) {
+    clear: both;
+}
+.fixed-position {
+    position: fixed;
+    bottom: 5px;
+}
