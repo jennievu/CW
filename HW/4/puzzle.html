@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle</title>
+    <style>
+        html, body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #puzzle-grid {
+            display: grid;
+            grid-template-rows: repeat(4, min-content);
+        }
+        #puzzle-grid > div {
+            border: 1px solid black;
+            margin: 0.5rem;
+            position: relative;
+        }
+        #confetti-canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .right-col {
+            margin-left: 5rem;
+        }
+        #count-down-timer {
+            font-size: 60px;
+            font-weight: bold;
+            width: 540px;
+        }
+        .game-board {
+            display: flex;
+            flex-direction: row;
+        }
+        .grid {
+            width: min-content;
+            height: min-content;
+        }
+        .grid-4x4 {
+            grid-template-columns:  repeat(4, min-content);
+        }
+        .grid-5x4 {
+            grid-template-columns: repeat(5, min-content);
+        }
+        .grid-6x4 {
+            grid-template-columns: repeat(6, min-content);
+        }
+    </style>
+</head>
+<body>
+    <h3>Puzzle Game</h3>
+    <div id="puzzle-selection">
+        <div class="guide">
+            <pre>
+    Welcome to match 2 puzzle game! Your goal is to match each of the pictures with its copy, 
+    Click the two matching images to reveal them. But be careful, there's a time limit!
+    To start, select how many pictures you want to play, then select the difficulty level.
+    Finally click <b>Begin</b> to play!
+    You can stop anytime with the <b>Stop</b> button below the timer.
+    Good luck, have fun!
+            </pre>
+        </div>
+        <div>
+            <label>Select puzzle size:</label><br>
+            <label><input type="radio" name="puzzle" value="8" checked>8 pictures</label>
+            <label><input type="radio" name="puzzle" value="10">10 pictures</label>
+            <label><input type="radio" name="puzzle" value="12">12 pictures</label><br><br>
+        </div>
+            <label>Select difficulty level:</label><br>
+            <label><input type="radio" name="diff" value="8" checked>Easy: 8 seconds to remember</label>
+            <label><input type="radio" name="diff" value="5">Medium: 5 seconds to remember</label>
+            <label><input type="radio" name="diff" value="3">Hard: 3 seconds to remember</label><br><br>
+        <div>
+
+        </div>
+        <button id="start-btn">Begin!</button>
+    </div><br>
+    <div class="game-board">
+        <div id="puzzle-grid"></div>
+        <div class="right-col">
+            <div id="count-down-timer"></div>
+            <button id="stop-btn" hidden>Stop</button>
+        </div>
+    </div>
+    <div>
+        <a href="index.html">Back to Employee</a>
+    </div>
+    <script src="puzzle.js"></script>
+    <script src="confetti.js"></script>
+</body>
+</html>
